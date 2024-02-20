@@ -23,6 +23,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1702DA462B8290B300B4DD76 /* CreateLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateLinkedList.h; sourceTree = "<group>"; };
+		1702DA482B8292C300B4DD76 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
+		170313A42B83FE3600339667 /* leaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leaders.h; sourceTree = "<group>"; };
+		171A542D2B83DB36002DC96F /* Patterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patterns.h; sourceTree = "<group>"; };
+		1758684C2B7D4A4D00629B47 /* Factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
+		1758684D2B7D4CD500629B47 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		1758684E2B7D64FC00629B47 /* DuplicateInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuplicateInArray.h; sourceTree = "<group>"; };
+		17B280D12B83700900AD8024 /* sort012Arr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort012Arr.h; sourceTree = "<group>"; };
+		17B280D22B83702B00AD8024 /* SubArraywithSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubArraywithSum.h; sourceTree = "<group>"; };
+		17B280D32B83703D00AD8024 /* MissinNoArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissinNoArray.h; sourceTree = "<group>"; };
+		17B280D42B83704C00AD8024 /* KadaneAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KadaneAlgo.h; sourceTree = "<group>"; };
 		17FA3BF12B7B470A0085F41F /* DSA&ALGO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA&ALGO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FA3BF42B7B470A0085F41F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		17FA3BFC2B7B47360085F41F /* MinimumJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumJump.h; sourceTree = "<group>"; };
@@ -40,6 +51,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1702DA472B8292A600B4DD76 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				17B280D02B836D3800AD8024 /* Easy */,
+				17B280CF2B836D3500AD8024 /* Medium */,
+				17B280CE2B836D3200AD8024 /* Hard */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		171A542C2B83DB11002DC96F /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				171A542D2B83DB36002DC96F /* Patterns.h */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		17B280CE2B836D3200AD8024 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		17B280CF2B836D3500AD8024 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		17B280D02B836D3800AD8024 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				1702DA482B8292C300B4DD76 /* TwoSum.h */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		17B280D52B8370BD00AD8024 /* StriverSheet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StriverSheet;
+			sourceTree = "<group>";
+		};
+		17B280D62B8370CF00AD8024 /* GFG */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GFG;
+			sourceTree = "<group>";
+		};
 		17FA3BE82B7B470A0085F41F = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				17FA3BF42B7B470A0085F41F /* main.cpp */,
+				17B280D62B8370CF00AD8024 /* GFG */,
+				17B280D52B8370BD00AD8024 /* StriverSheet */,
+				1702DA472B8292A600B4DD76 /* LeetCode */,
+				171A542C2B83DB11002DC96F /* Pattern */,
 				17FA3C002B7B4BA30085F41F /* String */,
 				17FA3BFE2B7B4B880085F41F /* LinkedList */,
 				17FA3BFF2B7B4B990085F41F /* Tree */,
@@ -75,6 +144,8 @@
 			children = (
 				17FA3BFC2B7B47360085F41F /* MinimumJump.h */,
 				17FA3C012B7B4BE60085F41F /* PermutationOfString.h */,
+				1758684C2B7D4A4D00629B47 /* Factorial.h */,
+				1758684D2B7D4CD500629B47 /* Fibonacci.h */,
 			);
 			path = "Recursion+DP";
 			sourceTree = "<group>";
@@ -82,6 +153,12 @@
 		17FA3BFD2B7B4B780085F41F /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				1758684E2B7D64FC00629B47 /* DuplicateInArray.h */,
+				17B280D12B83700900AD8024 /* sort012Arr.h */,
+				17B280D22B83702B00AD8024 /* SubArraywithSum.h */,
+				17B280D32B83703D00AD8024 /* MissinNoArray.h */,
+				17B280D42B83704C00AD8024 /* KadaneAlgo.h */,
+				170313A42B83FE3600339667 /* leaders.h */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -89,6 +166,7 @@
 		17FA3BFE2B7B4B880085F41F /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
+				1702DA462B8290B300B4DD76 /* CreateLinkedList.h */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
