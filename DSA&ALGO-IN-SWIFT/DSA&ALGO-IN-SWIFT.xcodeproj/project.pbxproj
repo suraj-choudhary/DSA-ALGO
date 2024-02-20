@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1702DA562B82958A00B4DD76 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1702DA552B82958A00B4DD76 /* main.swift */; };
+		1702DA5D2B8295AD00B4DD76 /* DuplicateInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1702DA5C2B8295AD00B4DD76 /* DuplicateInArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1702DA522B82958A00B4DD76 /* DSA&ALGO-IN-SWIFT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA&ALGO-IN-SWIFT"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1702DA552B82958A00B4DD76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1702DA5C2B8295AD00B4DD76 /* DuplicateInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateInArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,113 @@
 			isa = PBXGroup;
 			children = (
 				1702DA552B82958A00B4DD76 /* main.swift */,
+				1702DA672B82976B00B4DD76 /* Leetcode */,
+				1702DA662B8296FB00B4DD76 /* SortingAlg */,
+				1702DA5E2B82965700B4DD76 /* Array */,
+				1702DA652B8296DE00B4DD76 /* 2DArray */,
+				1702DA642B82967900B4DD76 /* LinkdList */,
+				1702DA632B82967600B4DD76 /* Tree */,
+				1702DA622B82967300B4DD76 /* Stack */,
+				1702DA612B82967000B4DD76 /* Queue */,
+				1702DA602B82966E00B4DD76 /* Graph */,
+				1702DA5F2B82966B00B4DD76 /* DP+Recursion */,
 			);
 			path = "DSA&ALGO-IN-SWIFT";
+			sourceTree = "<group>";
+		};
+		1702DA5E2B82965700B4DD76 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				1702DA5C2B8295AD00B4DD76 /* DuplicateInArray.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		1702DA5F2B82966B00B4DD76 /* DP+Recursion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DP+Recursion";
+			sourceTree = "<group>";
+		};
+		1702DA602B82966E00B4DD76 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		1702DA612B82967000B4DD76 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		1702DA622B82967300B4DD76 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		1702DA632B82967600B4DD76 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		1702DA642B82967900B4DD76 /* LinkdList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LinkdList;
+			sourceTree = "<group>";
+		};
+		1702DA652B8296DE00B4DD76 /* 2DArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 2DArray;
+			sourceTree = "<group>";
+		};
+		1702DA662B8296FB00B4DD76 /* SortingAlg */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SortingAlg;
+			sourceTree = "<group>";
+		};
+		1702DA672B82976B00B4DD76 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				1702DA6A2B82977C00B4DD76 /* Easy */,
+				1702DA692B82977900B4DD76 /* Medium */,
+				1702DA682B82977600B4DD76 /* Hard */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		1702DA682B82977600B4DD76 /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		1702DA692B82977900B4DD76 /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		1702DA6A2B82977C00B4DD76 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1702DA5D2B8295AD00B4DD76 /* DuplicateInArray.swift in Sources */,
 				1702DA562B82958A00B4DD76 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,12 +7,21 @@
 
 import Foundation
 
-func countTheDuplicate(_ arr: [Int], _ n: Int) {
+func countDuplicate(_ arr: [Int], _ n: Int) {
 
+    var start = 0
+    
+    while start < n {
+        
+        
+        print(arr[start], terminator: " ")
+        start += 1
+    }
+    
 }
 
 
 func DuplicateMain() {
     let arr = [1, 2, 2, 3, 3, 3, 4, 5, 5, 5, 5]
-    countTheDuplicate(arr, arr.count)
+    countDuplicate(arr, arr.count)
 }
