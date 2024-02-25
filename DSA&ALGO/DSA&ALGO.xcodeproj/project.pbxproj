@@ -36,6 +36,9 @@
 		17B280D32B83703D00AD8024 /* MissinNoArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissinNoArray.h; sourceTree = "<group>"; };
 		17B280D42B83704C00AD8024 /* KadaneAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KadaneAlgo.h; sourceTree = "<group>"; };
 		17D3411B2B854D8D00B05FE5 /* majorityElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = majorityElement.h; sourceTree = "<group>"; };
+		17F117162B8BD16E00FEFA67 /* InOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InOrderTraversal.h; sourceTree = "<group>"; };
+		17F117172B8BD30300FEFA67 /* PostOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostOrderTraversal.h; sourceTree = "<group>"; };
+		17F117182B8BDB5700FEFA67 /* IterativePreOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IterativePreOrder.h; sourceTree = "<group>"; };
 		17FA3BF12B7B470A0085F41F /* DSA&ALGO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA&ALGO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FA3BF42B7B470A0085F41F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		17FA3BFC2B7B47360085F41F /* MinimumJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumJump.h; sourceTree = "<group>"; };
@@ -178,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				175416902B8692A9003C202D /* PreOrderTraversal.h */,
+				17F117162B8BD16E00FEFA67 /* InOrderTraversal.h */,
+				17F117172B8BD30300FEFA67 /* PostOrderTraversal.h */,
+				17F117182B8BDB5700FEFA67 /* IterativePreOrder.h */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
