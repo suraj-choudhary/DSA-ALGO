@@ -15,8 +15,13 @@
 #include "Pattern/Patterns.h"
 #include "Array/sort012Arr.h"
 #include "Array/leaders.h"
+#include "Array/majorityElement.h"
+
+//Tree
+#include "Tree/PreOrderTraversal.h"
+
 
 int main() {
     
-    leadersMain();
+    majorityElementMain();
 }
