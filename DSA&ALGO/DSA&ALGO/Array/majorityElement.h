@@ -56,6 +56,24 @@ void majorityElementII(int arr[], int size) {
     
 }
 
+// Boyer–Moore majority vote algorithm
+
+int majorityElementIII(int arr[], int n) {
+    int count = 0;
+    int element = 0;
+    for(int i = 0; i < n; i++) {
+        if(count == 0) {
+            count++;
+            element = arr[i];
+        } else if(arr[i] == element) {
+            count++;
+        } else {
+            count--;
+        }
+    }
+    return 0;
+}
+
 void majorityElementMain() {
     int arr[] = {3,1,3,3,2, 2, 2, 2, 2};
     int size = sizeof(arr) / sizeof(arr[0]);
