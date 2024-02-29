@@ -48,7 +48,7 @@ void majorityElementII(int arr[], int size) {
         map[arr[i]]++;
     }
     for(auto it: map) {
-        if(it.second > (size / 2)) {
+        if(it.first > (size / 2)) {
             printf("%d ", it.first);
             break;
         }
@@ -71,13 +71,23 @@ int majorityElementIII(int arr[], int n) {
             count--;
         }
     }
+    
+    int cnt = 0;
+    for(int j = 0; j < n; j++) {
+        if(arr[j] == element) {
+            cnt++;
+        }
+    }
+    if(cnt > (n / 2)) {
+        printf("%d ", element);
+    }
     return 0;
 }
 
 void majorityElementMain() {
     int arr[] = {3,1,3,3,2, 2, 2, 2, 2};
     int size = sizeof(arr) / sizeof(arr[0]);
-    majorityElementII(arr, size);
+    majorityElementIII(arr, size);
 }
 
 #endif /* majorityElement_h */

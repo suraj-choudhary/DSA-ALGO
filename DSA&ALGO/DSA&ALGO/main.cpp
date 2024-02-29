@@ -15,6 +15,7 @@
 #include "Array/sort012Arr.h"
 #include "Array/leaders.h"
 #include "Array/majorityElement.h"
+#include "Array/kthSmallest.h"
 
 //Tree
 #include "Tree/PreOrderTraversal.h"
@@ -25,5 +26,5 @@
 
 int main() {
     
-    interativePreOrderMain();
+    kthSmallestMain();
 }
