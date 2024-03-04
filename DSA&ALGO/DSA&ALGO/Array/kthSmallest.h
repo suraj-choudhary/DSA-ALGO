@@ -28,6 +28,7 @@ int count(int nums[], int mid, int size)
      return cnt;
 }
 
+// Method 2 using binary search
 int kthSmallestII(int arr[], int l, int r, int k) {
     int low = INT_MAX;
     int high = INT_MIN;
@@ -48,6 +49,14 @@ int kthSmallestII(int arr[], int l, int r, int k) {
     printf("%d ", low);
     return low;
 }
+
+// method 3 using binary search
+
+int kthSmallestIII(int arr[], int l, int r, int k) {
+    
+    return 0;
+}
+
 
 int kthSmallestMain() {
     int arr[] = {12, 3, 5, 7, 1};
