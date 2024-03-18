@@ -25,7 +25,9 @@
 /* Begin PBXFileReference section */
 		1702DA482B8292C300B4DD76 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
 		170313A42B83FE3600339667 /* leaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leaders.h; sourceTree = "<group>"; };
+		1716F4002BA8209E003A8A8C /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		171A542D2B83DB36002DC96F /* Patterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patterns.h; sourceTree = "<group>"; };
+		171F17B22B985B5300B6B214 /* getConcatenation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getConcatenation.h; sourceTree = "<group>"; };
 		17216C3C2B94FA3B00F61DF0 /* insertAfter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertAfter.h; sourceTree = "<group>"; };
 		172A61652B94262E002ADAFC /* minimizeTheHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minimizeTheHeight.h; sourceTree = "<group>"; };
 		172A61662B9429AE002ADAFC /* equilibriumPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = equilibriumPoint.h; sourceTree = "<group>"; };
@@ -33,11 +35,13 @@
 		172A61682B94391B002ADAFC /* InsertAtTheBegning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertAtTheBegning.h; sourceTree = "<group>"; };
 		173776102B94C304003E8497 /* CheckforBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckforBST.h; sourceTree = "<group>"; };
 		173776112B94C3EF003E8497 /* ParenthesisChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParenthesisChecker.h; sourceTree = "<group>"; };
+		174934312BA2D63500AC1664 /* Pairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pairs.h; sourceTree = "<group>"; };
 		175416902B8692A9003C202D /* PreOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreOrderTraversal.h; sourceTree = "<group>"; };
 		1758684C2B7D4A4D00629B47 /* Factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		1758684D2B7D4CD500629B47 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		1758684E2B7D64FC00629B47 /* DuplicateInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuplicateInArray.h; sourceTree = "<group>"; };
 		17A2C5722B8D1B0500EDEA08 /* kthSmallest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kthSmallest.h; sourceTree = "<group>"; };
+		17A802732BA4244C0020615B /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		17B280D12B83700900AD8024 /* sort012Arr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort012Arr.h; sourceTree = "<group>"; };
 		17B280D22B83702B00AD8024 /* SubArraywithSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubArraywithSum.h; sourceTree = "<group>"; };
 		17B280D32B83703D00AD8024 /* MissinNoArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissinNoArray.h; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		1702DA472B8292A600B4DD76 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				171F17B12B985B3B00B6B214 /* ArrayEasy */,
 				17B280D02B836D3800AD8024 /* Easy */,
 			);
 			path = LeetCode;
@@ -77,6 +82,30 @@
 				171A542D2B83DB36002DC96F /* Patterns.h */,
 			);
 			path = Pattern;
+			sourceTree = "<group>";
+		};
+		171F17B12B985B3B00B6B214 /* ArrayEasy */ = {
+			isa = PBXGroup;
+			children = (
+				171F17B22B985B5300B6B214 /* getConcatenation.h */,
+			);
+			path = ArrayEasy;
+			sourceTree = "<group>";
+		};
+		1770BC542BA253170098DB09 /* CodingMinutes */ = {
+			isa = PBXGroup;
+			children = (
+				1770BC552BA253300098DB09 /* Array&Vector */,
+			);
+			path = CodingMinutes;
+			sourceTree = "<group>";
+		};
+		1770BC552BA253300098DB09 /* Array&Vector */ = {
+			isa = PBXGroup;
+			children = (
+				174934312BA2D63500AC1664 /* Pairs.h */,
+			);
+			path = "Array&Vector";
 			sourceTree = "<group>";
 		};
 		17B280D02B836D3800AD8024 /* Easy */ = {
@@ -107,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				17FA3BF42B7B470A0085F41F /* main.cpp */,
+				1770BC542BA253170098DB09 /* CodingMinutes */,
 				1702DA472B8292A600B4DD76 /* LeetCode */,
 				171A542C2B83DB11002DC96F /* Pattern */,
 				17FA3C002B7B4BA30085F41F /* String */,
@@ -122,9 +152,9 @@
 		17FA3BFB2B7B471C0085F41F /* Recursion+DP */ = {
 			isa = PBXGroup;
 			children = (
+				1758684C2B7D4A4D00629B47 /* Factorial.h */,
 				17FA3BFC2B7B47360085F41F /* MinimumJump.h */,
 				17FA3C012B7B4BE60085F41F /* PermutationOfString.h */,
-				1758684C2B7D4A4D00629B47 /* Factorial.h */,
 				1758684D2B7D4CD500629B47 /* Fibonacci.h */,
 			);
 			path = "Recursion+DP";
@@ -180,6 +210,8 @@
 		17FA3C022B7B4D460085F41F /* SortingTechnique */ = {
 			isa = PBXGroup;
 			children = (
+				17A802732BA4244C0020615B /* BubbleSort.h */,
+				1716F4002BA8209E003A8A8C /* InsertionSort.h */,
 			);
 			path = SortingTechnique;
 			sourceTree = "<group>";
