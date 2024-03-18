@@ -10,6 +10,12 @@
 #include "Recursion+DP/Factorial.h"
 #include "Pattern/Patterns.h"
 
+//sorting----
+
+#include "SortingTechnique/BubbleSort.h"
+#include "SortingTechnique/InsertionSort.h"
+
+
 //Array--------------------------------
 
 #include "Array/DuplicateInArray.h"
@@ -42,5 +48,5 @@
 
 int main() {
     
-    inserAfterMain();
+    bubbleSortMain();
 }

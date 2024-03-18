@@ -9,4 +9,15 @@
 #define getConcatenation_h
 
 
+void getConcatenation(int arr[], int size) {
+    
+}
+
+void getConcatenationMain() {
+    int arr[] = {1,2,1};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    getConcatenation(arr, n);
+}
+
+
 #endif /* getConcatenation_h */
