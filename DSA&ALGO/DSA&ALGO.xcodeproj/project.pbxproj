@@ -23,37 +23,74 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1702DA482B8292C300B4DD76 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
+		170060982BBD0F6900302CD2 /* SumOfAllElementOfNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumOfAllElementOfNode.h; sourceTree = "<group>"; };
+		170060992BBD10AA00302CD2 /* MaximumElmentInLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaximumElmentInLinkedList.h; sourceTree = "<group>"; };
+		1700609A2BBD192400302CD2 /* SearchingInLinkedin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchingInLinkedin.h; sourceTree = "<group>"; };
+		1700E1E82BF6EF290047F456 /* SortBinaryInLinear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortBinaryInLinear.h; sourceTree = "<group>"; };
 		170313A42B83FE3600339667 /* leaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leaders.h; sourceTree = "<group>"; };
+		170F0C1D2BCC71DA002F29CD /* DeleteNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteNode.h; sourceTree = "<group>"; };
 		1716F4002BA8209E003A8A8C /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		171A542D2B83DB36002DC96F /* Patterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patterns.h; sourceTree = "<group>"; };
-		171F17B22B985B5300B6B214 /* getConcatenation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getConcatenation.h; sourceTree = "<group>"; };
-		17216C3C2B94FA3B00F61DF0 /* insertAfter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertAfter.h; sourceTree = "<group>"; };
+		1721E1AF2BCF1C37000D2CD5 /* reverseALinnkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reverseALinnkedList.h; sourceTree = "<group>"; };
+		172475CA2BB406C200FAAE68 /* NQueen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NQueen.h; sourceTree = "<group>"; };
+		17290E422BCFB9660089787B /* ConcateOfTwoLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcateOfTwoLinkedList.h; sourceTree = "<group>"; };
 		172A61652B94262E002ADAFC /* minimizeTheHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minimizeTheHeight.h; sourceTree = "<group>"; };
 		172A61662B9429AE002ADAFC /* equilibriumPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = equilibriumPoint.h; sourceTree = "<group>"; };
 		172A61672B943840002ADAFC /* LinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListNode.h; sourceTree = "<group>"; };
-		172A61682B94391B002ADAFC /* InsertAtTheBegning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertAtTheBegning.h; sourceTree = "<group>"; };
 		173776102B94C304003E8497 /* CheckforBST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckforBST.h; sourceTree = "<group>"; };
 		173776112B94C3EF003E8497 /* ParenthesisChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParenthesisChecker.h; sourceTree = "<group>"; };
-		174934312BA2D63500AC1664 /* Pairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pairs.h; sourceTree = "<group>"; };
+		17399E6F2C10F87200C64FFD /* romanToInt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = romanToInt.h; sourceTree = "<group>"; };
+		174B9A432C0D648600899251 /* isPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isPalindrome.h; sourceTree = "<group>"; };
+		17526BD62BA8D6ED00BFFA73 /* SelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
 		175416902B8692A9003C202D /* PreOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreOrderTraversal.h; sourceTree = "<group>"; };
 		1758684C2B7D4A4D00629B47 /* Factorial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		1758684D2B7D4CD500629B47 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		1758684E2B7D64FC00629B47 /* DuplicateInArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuplicateInArray.h; sourceTree = "<group>"; };
+		176189802C07F21B0051B47E /* DoublyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoublyLinkedList.h; sourceTree = "<group>"; };
+		176CDFD62BC784AB00039239 /* MoveToHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoveToHead.h; sourceTree = "<group>"; };
+		177085592BF1DBEB009AA3D1 /* printAllSubarraysZeroSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printAllSubarraysZeroSum.h; sourceTree = "<group>"; };
+		177242272BF15C2300C3A14D /* Subarraywith0sum .h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Subarraywith0sum .h"; sourceTree = "<group>"; };
+		177CA0CA2BFD36FB0063755B /* FindTheDuplicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindTheDuplicate.h; sourceTree = "<group>"; };
+		177CA0D02BFD49D00063755B /* isConsecutiveLargestSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = isConsecutiveLargestSubArray.h; sourceTree = "<group>"; };
+		1783D9CC2BCA48CA004BA40E /* InsertNodeAtLast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertNodeAtLast.h; sourceTree = "<group>"; };
+		178400B12BCE116700FE7C7B /* removeDuplicateList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeDuplicateList.h; sourceTree = "<group>"; };
+		17854EFD2BEAC68D0052CFC8 /* TwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSum.h; sourceTree = "<group>"; };
+		17854EFE2BEAC68D0052CFC8 /* Mountaine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mountaine.h; sourceTree = "<group>"; };
+		17854EFF2BEAC68D0052CFC8 /* Triplet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Triplet.h; sourceTree = "<group>"; };
+		17854F002BEADBD50052CFC8 /* ThirdLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdLargest.h; sourceTree = "<group>"; };
+		17854F012BEADC2F0052CFC8 /* LongestBand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestBand.h; sourceTree = "<group>"; };
+		178632BE2BCFCD7A0048C24D /* secondLargest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondLargest.h; sourceTree = "<group>"; };
+		179C0D312BCB1BA60049B9EE /* InsertingInSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertingInSortedList.h; sourceTree = "<group>"; };
 		17A2C5722B8D1B0500EDEA08 /* kthSmallest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kthSmallest.h; sourceTree = "<group>"; };
+		17A5D95F2BF33EE1006C663C /* SubArraySort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubArraySort.h; sourceTree = "<group>"; };
 		17A802732BA4244C0020615B /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		17AA54C22BD5B47E006417EE /* ISLinkedListIsCircular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISLinkedListIsCircular.h; sourceTree = "<group>"; };
+		17AB970E2BBA80F300299961 /* permuationOfParanthesis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = permuationOfParanthesis.h; sourceTree = "<group>"; };
+		17AB970F2BBA9C8800299961 /* CreateMemoryOfLinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateMemoryOfLinkedListNode.h; sourceTree = "<group>"; };
+		17AB97102BBAA0F400299961 /* DisplayLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayLinkedList.h; sourceTree = "<group>"; };
 		17B280D12B83700900AD8024 /* sort012Arr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort012Arr.h; sourceTree = "<group>"; };
 		17B280D22B83702B00AD8024 /* SubArraywithSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubArraywithSum.h; sourceTree = "<group>"; };
 		17B280D32B83703D00AD8024 /* MissinNoArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissinNoArray.h; sourceTree = "<group>"; };
 		17B280D42B83704C00AD8024 /* KadaneAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KadaneAlgo.h; sourceTree = "<group>"; };
+		17B347822BC88820005BEFC3 /* InsertingAtIndex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertingAtIndex.h; sourceTree = "<group>"; };
+		17C6FA182BAEC6FF00D91DAE /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		17C711A72BEC7BEB00426067 /* LinkedList01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList01.h; sourceTree = "<group>"; };
+		17C711A82BEC87ED00426067 /* CircularLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularLinkedList.h; sourceTree = "<group>"; };
+		17C8C7992BCDDB22008FE0F1 /* CheckLinkedListIsSortedOrNot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckLinkedListIsSortedOrNot.h; sourceTree = "<group>"; };
+		17D0CAA42BF0167900ADC3E3 /* Rains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rains.h; sourceTree = "<group>"; };
 		17D3411B2B854D8D00B05FE5 /* majorityElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = majorityElement.h; sourceTree = "<group>"; };
+		17E8AB0E2BBB4D98008FAD9F /* CreateALinkedListUsingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateALinkedListUsingArray.h; sourceTree = "<group>"; };
+		17EF9BC42BC5D62100AB4903 /* segregate0and1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = segregate0and1.h; sourceTree = "<group>"; };
+		17EF9BC52BC5EB7400AB4903 /* stockBuyAndSell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stockBuyAndSell.h; sourceTree = "<group>"; };
 		17F117162B8BD16E00FEFA67 /* InOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InOrderTraversal.h; sourceTree = "<group>"; };
 		17F117172B8BD30300FEFA67 /* PostOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostOrderTraversal.h; sourceTree = "<group>"; };
 		17F117182B8BDB5700FEFA67 /* IterativePreOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IterativePreOrder.h; sourceTree = "<group>"; };
+		17F2243B2BBCA6B400500535 /* CountingNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountingNode.h; sourceTree = "<group>"; };
 		17FA3BF12B7B470A0085F41F /* DSA&ALGO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "DSA&ALGO"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FA3BF42B7B470A0085F41F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		17FA3BFC2B7B47360085F41F /* MinimumJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinimumJump.h; sourceTree = "<group>"; };
 		17FA3C012B7B4BE60085F41F /* PermutationOfString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermutationOfString.h; sourceTree = "<group>"; };
+		17FE80932BC7C50900CC03B0 /* InsertingNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertingNode.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,15 +104,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1702DA472B8292A600B4DD76 /* LeetCode */ = {
-			isa = PBXGroup;
-			children = (
-				171F17B12B985B3B00B6B214 /* ArrayEasy */,
-				17B280D02B836D3800AD8024 /* Easy */,
-			);
-			path = LeetCode;
-			sourceTree = "<group>";
-		};
 		171A542C2B83DB11002DC96F /* Pattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,12 +112,21 @@
 			path = Pattern;
 			sourceTree = "<group>";
 		};
-		171F17B12B985B3B00B6B214 /* ArrayEasy */ = {
+		174B9A412C0D645D00899251 /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				171F17B22B985B5300B6B214 /* getConcatenation.h */,
+				174B9A422C0D647300899251 /* Easy */,
 			);
-			path = ArrayEasy;
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		174B9A422C0D647300899251 /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				174B9A432C0D648600899251 /* isPalindrome.h */,
+				17399E6F2C10F87200C64FFD /* romanToInt.h */,
+			);
+			path = Easy;
 			sourceTree = "<group>";
 		};
 		1770BC542BA253170098DB09 /* CodingMinutes */ = {
@@ -103,22 +140,47 @@
 		1770BC552BA253300098DB09 /* Array&Vector */ = {
 			isa = PBXGroup;
 			children = (
-				174934312BA2D63500AC1664 /* Pairs.h */,
+				17854EFF2BEAC68D0052CFC8 /* Triplet.h */,
+				17854EFD2BEAC68D0052CFC8 /* TwoSum.h */,
+				17854EFE2BEAC68D0052CFC8 /* Mountaine.h */,
+				17854F012BEADC2F0052CFC8 /* LongestBand.h */,
+				17D0CAA42BF0167900ADC3E3 /* Rains.h */,
+				17A5D95F2BF33EE1006C663C /* SubArraySort.h */,
 			);
 			path = "Array&Vector";
 			sourceTree = "<group>";
 		};
-		17B280D02B836D3800AD8024 /* Easy */ = {
+		177242252BF15BE000C3A14D /* 500DSA */ = {
 			isa = PBXGroup;
 			children = (
-				1702DA482B8292C300B4DD76 /* TwoSum.h */,
+				177242262BF15C0B00C3A14D /* Array */,
 			);
-			path = Easy;
+			path = 500DSA;
+			sourceTree = "<group>";
+		};
+		177242262BF15C0B00C3A14D /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				177242272BF15C2300C3A14D /* Subarraywith0sum .h */,
+				177085592BF1DBEB009AA3D1 /* printAllSubarraysZeroSum.h */,
+				1700E1E82BF6EF290047F456 /* SortBinaryInLinear.h */,
+				177CA0CA2BFD36FB0063755B /* FindTheDuplicate.h */,
+				177CA0D02BFD49D00063755B /* isConsecutiveLargestSubArray.h */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		177CA0CB2BFD3C7D0063755B /* SWIFT */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SWIFT;
 			sourceTree = "<group>";
 		};
 		17FA3BE82B7B470A0085F41F = {
 			isa = PBXGroup;
 			children = (
+				177CA0CB2BFD3C7D0063755B /* SWIFT */,
 				17FA3BF32B7B470A0085F41F /* DSA&ALGO */,
 				17FA3BF22B7B470A0085F41F /* Products */,
 			);
@@ -136,8 +198,9 @@
 			isa = PBXGroup;
 			children = (
 				17FA3BF42B7B470A0085F41F /* main.cpp */,
+				174B9A412C0D645D00899251 /* Leetcode */,
+				177242252BF15BE000C3A14D /* 500DSA */,
 				1770BC542BA253170098DB09 /* CodingMinutes */,
-				1702DA472B8292A600B4DD76 /* LeetCode */,
 				171A542C2B83DB11002DC96F /* Pattern */,
 				17FA3C002B7B4BA30085F41F /* String */,
 				17FA3BFE2B7B4B880085F41F /* LinkedList */,
@@ -153,9 +216,11 @@
 			isa = PBXGroup;
 			children = (
 				1758684C2B7D4A4D00629B47 /* Factorial.h */,
+				1758684D2B7D4CD500629B47 /* Fibonacci.h */,
 				17FA3BFC2B7B47360085F41F /* MinimumJump.h */,
 				17FA3C012B7B4BE60085F41F /* PermutationOfString.h */,
-				1758684D2B7D4CD500629B47 /* Fibonacci.h */,
+				172475CA2BB406C200FAAE68 /* NQueen.h */,
+				17AB970E2BBA80F300299961 /* permuationOfParanthesis.h */,
 			);
 			path = "Recursion+DP";
 			sourceTree = "<group>";
@@ -163,9 +228,9 @@
 		17FA3BFD2B7B4B780085F41F /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				17B280D22B83702B00AD8024 /* SubArraywithSum.h */,
 				1758684E2B7D64FC00629B47 /* DuplicateInArray.h */,
 				17B280D12B83700900AD8024 /* sort012Arr.h */,
-				17B280D22B83702B00AD8024 /* SubArraywithSum.h */,
 				17B280D32B83703D00AD8024 /* MissinNoArray.h */,
 				17B280D42B83704C00AD8024 /* KadaneAlgo.h */,
 				170313A42B83FE3600339667 /* leaders.h */,
@@ -173,6 +238,10 @@
 				17A2C5722B8D1B0500EDEA08 /* kthSmallest.h */,
 				172A61652B94262E002ADAFC /* minimizeTheHeight.h */,
 				172A61662B9429AE002ADAFC /* equilibriumPoint.h */,
+				17EF9BC42BC5D62100AB4903 /* segregate0and1.h */,
+				17EF9BC52BC5EB7400AB4903 /* stockBuyAndSell.h */,
+				178632BE2BCFCD7A0048C24D /* secondLargest.h */,
+				17854F002BEADBD50052CFC8 /* ThirdLargest.h */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -181,8 +250,27 @@
 			isa = PBXGroup;
 			children = (
 				172A61672B943840002ADAFC /* LinkedListNode.h */,
-				172A61682B94391B002ADAFC /* InsertAtTheBegning.h */,
-				17216C3C2B94FA3B00F61DF0 /* insertAfter.h */,
+				17AB970F2BBA9C8800299961 /* CreateMemoryOfLinkedListNode.h */,
+				176CDFD62BC784AB00039239 /* MoveToHead.h */,
+				17AB97102BBAA0F400299961 /* DisplayLinkedList.h */,
+				17E8AB0E2BBB4D98008FAD9F /* CreateALinkedListUsingArray.h */,
+				17F2243B2BBCA6B400500535 /* CountingNode.h */,
+				170060982BBD0F6900302CD2 /* SumOfAllElementOfNode.h */,
+				170060992BBD10AA00302CD2 /* MaximumElmentInLinkedList.h */,
+				1700609A2BBD192400302CD2 /* SearchingInLinkedin.h */,
+				17FE80932BC7C50900CC03B0 /* InsertingNode.h */,
+				17B347822BC88820005BEFC3 /* InsertingAtIndex.h */,
+				1783D9CC2BCA48CA004BA40E /* InsertNodeAtLast.h */,
+				179C0D312BCB1BA60049B9EE /* InsertingInSortedList.h */,
+				170F0C1D2BCC71DA002F29CD /* DeleteNode.h */,
+				17C8C7992BCDDB22008FE0F1 /* CheckLinkedListIsSortedOrNot.h */,
+				178400B12BCE116700FE7C7B /* removeDuplicateList.h */,
+				17290E422BCFB9660089787B /* ConcateOfTwoLinkedList.h */,
+				1721E1AF2BCF1C37000D2CD5 /* reverseALinnkedList.h */,
+				17AA54C22BD5B47E006417EE /* ISLinkedListIsCircular.h */,
+				17C711A72BEC7BEB00426067 /* LinkedList01.h */,
+				17C711A82BEC87ED00426067 /* CircularLinkedList.h */,
+				176189802C07F21B0051B47E /* DoublyLinkedList.h */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -212,6 +300,8 @@
 			children = (
 				17A802732BA4244C0020615B /* BubbleSort.h */,
 				1716F4002BA8209E003A8A8C /* InsertionSort.h */,
+				17526BD62BA8D6ED00BFFA73 /* SelectionSort.h */,
+				17C6FA182BAEC6FF00D91DAE /* QuickSort.h */,
 			);
 			path = SortingTechnique;
 			sourceTree = "<group>";
@@ -247,6 +337,7 @@
 				TargetAttributes = {
 					17FA3BF02B7B470A0085F41F = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -398,16 +489,23 @@
 		17FA3BF92B7B470A0085F41F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWIFT/Array/DSA&ALGO-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		17FA3BFA2B7B470A0085F41F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWIFT/Array/DSA&ALGO-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
