@@ -14,6 +14,7 @@ void postOderTraversal(struct TreeNode *t) {
         postOderTraversal(t->right);
         printf("%d ", t->data);
     }
+    
 }
 
 void postOderTraversalMain() {

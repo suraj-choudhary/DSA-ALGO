@@ -8,5 +8,16 @@
 #ifndef ISLinkedListIsCircular_h
 #define ISLinkedListIsCircular_h
 
+int isLoop(struct LNode *first) {
+    
+    struct LNode *p, *q;
+    p = q = first;
+    
+    
+    
+    return 0;
+}
+
+
 
 #endif /* ISLinkedListIsCircular_h */

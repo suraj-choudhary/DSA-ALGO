@@ -8,5 +8,23 @@
 #ifndef SearchingInLinkedin_h
 #define SearchingInLinkedin_h
 
+/*
+ linear search
+ binary search
+ */
+
+void linearSearch(struct LNode *p, int key) {
+    
+    while (p != NULL) {
+        if(p->data == key) {
+            printf("key is found at: %d index", key);
+            return;
+        }
+    }
+    return;
+}
+
+
+
 
 #endif /* SearchingInLinkedin_h */

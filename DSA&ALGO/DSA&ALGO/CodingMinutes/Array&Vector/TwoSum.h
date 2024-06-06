@@ -7,6 +7,7 @@
 
 #ifndef TwoSum_h
 #define TwoSum_h
+#include "unordered_set"
 using namespace std;
 
 /// Description
@@ -38,6 +39,7 @@ std::vector<int> twoSum(int arr[], int size, int sum) {
 void twoSumII(int arr[], int size, int sum) {
     /// x + y = z => x = z - y
     unordered_set<int>res;
+    
     for(int i = 0; i < size; i++) {
         int x = sum - arr[i];
         if (res.find(x) != res.end()) {

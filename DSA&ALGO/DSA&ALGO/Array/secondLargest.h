@@ -9,4 +9,9 @@
 #define secondLargest_h
 
 
+void secondLargestMain() {
+    int arr[] = {12, 35, 1, 10, 34, 1};
+    int size = sizeof(arr) / sizeof(arr[0]);
+}
+
 #endif /* secondLargest_h */

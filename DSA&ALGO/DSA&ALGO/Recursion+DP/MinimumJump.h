@@ -17,7 +17,6 @@ void minimumJumpToReachEnd(int arr[], int start, int end, int path[], int pathIn
             }
         }
         printf("\n");
-        
         return;
     } else {
         for (int i = start + 1; i <= start + arr[start] && i <= end; i++) {

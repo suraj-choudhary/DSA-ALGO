@@ -17,8 +17,6 @@ void inOrder(struct TreeNode *t) {
         inOrder(t->right);
     }
 }
-
-
 void inOrderMain() {
     struct TreeNode *root = new TreeNode(8);
 }

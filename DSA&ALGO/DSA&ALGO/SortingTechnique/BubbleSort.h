@@ -41,10 +41,6 @@ void Bubble(int A[],int n)
     displayII(A, n);
 }
 
-
-
-
-
 void bubbleSortMain() {
     int arr[] = {8, 5, 7, 3, 2};
     int size = sizeof(arr) / sizeof(arr[0]);
